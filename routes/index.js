@@ -8,4 +8,7 @@ router.get('/', function(req, res, next) {
 router.get('/Gallery',function(req,res){
  res.render('Gallery')
 });
+router.get('/reviews',function(req,res){
+  res.render('reviews');
+ });
 module.exports = router;

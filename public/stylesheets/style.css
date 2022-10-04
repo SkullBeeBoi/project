@@ -1,8 +1,48 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url('/images/leaves.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  position:relative;
+  top: 200px;
+  left: 7cm;
 }
 
 a {
-  color: #00B7FF;
+  color: #ffffff;
+  border-radius: 19px;
+  background-color: rgb(22, 255, 14);
+  padding: 15px;
+  position: relative;
+  letter-spacing: 1px;
+  top: -6cm;
+  left: 750px;
+}
+.font{
+  color: white;
+  font-size:larger;
+  box-sizing: content-box;
+  padding: 200px;
+  border-radius: 100px;
+  
+}
+.main{
+  position: absolute;
+  top: 200px;
+  left: 400px;
+  transform: translate(-50%,-50%);
+  z-index: 5;
+  width: 45%;
+  padding: 40px 0;
+  text-align: center;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  background-color: rgba(0,0,0,0.3);
+  
+}
+.links{
+  position: relative;
+  right: 2000px;
 }
