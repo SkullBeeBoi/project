@@ -1,36 +1,34 @@
-body{
-    background-repeat: no-repeat;
+html,body{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background: linear-gradient(315deg,#ffffff,#d7e1ec);
+    background-image: url("/images/BOOM_Blog+Design_Trends+2021_BlogHeader_v1.png");
+    font-family:Arial, Helvetica, sans-serif;
+}
+.app{
+    color: #000000;
     text-align: center;
-    background-image: url("https://media.zicxa.com/1308869");
-    position: relative;
-    top: 200px;
-    left: -20px;
-}    
-a{
-    background-color: rgb(251, 255, 0);
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius:  19px;
-    padding: 15px;
-    color: black;
 }
-.youtube{
-    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATcAAACiCAMAAAATIHpEAAAAxlBMVEX7AA/////7AADyAAD/1Nf7AAv7Nj748/T5AADuqaz2VVz/9fb6///xxsj8W2Lxm57/5+rxjpL/7O78UFX0AA72dXv9hInwXGD/zdHtcXTsLjX+r7PqoqT/3eD81tn8P0n9pajxPkT5Ji/8i5D+ub/9nqPwSE7+wcb8S0/7GSHxtrnu4uPwHyr8b3XvDhz7lJj8a2/s0dPuZWnnfIDifH/kjZDxy8zu3d7ksbLwW1/ml5r16+vwlZfuen7pSU75LTbeGSDlAA9w0LaLAAADiUlEQVR4nO3a0VIaMRSAYXLi2tCtFleoFgWBRQtaVGxrUaza93+p5gQRBLSMF+JM/u8CGId2ln82m2ShUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIEhmrPp43jcn08bNZv666oN8dxJp5Xu79Vopy1IzI02zUq2+1j7cFFn1cb4ziWvM1lqktk64J6S9TDZ/6rXcqg/1jT1cnRZfpORouWzGfIvshEs6ne1CUpCDznZ3PpwcG/NpbBJp+vWYi2tucCfGVCSxvkRr/pPboTHfbTmwv8eJ1qzdmOvWi+uEky1j2qLjsT7/wZNTH6QbFh8ibtJNZL5bI65uyV9jMpEbY87mP3i4vPXOz7uJ2znfHL7YrR1Xt4L0jVl3l8bcyXhySPRJH+Ri1GRd7PQVbWG33di6/TAmt8aUxEmnoivYpHVw0A0P8vWx2wdd5prRQ+g2fDj9hicfwnMtsm46UHeP9PrUrfmPnx2EQbspn435qBe/x26ptZ9Nydpi6PbHuZ/69lvn7C99TxbdAq5vUo2kY9WPxlS01kO36+lu4v9WEtFuyakfxdZPxa2wPdW3pdF18wM19VXu/JRaHuiC4v/dpJLlOli/iTSybSl/irBbWGz4An4O+CJNHbCTbvvPdbscvcp1wmiLLgKj61YIC7OezgEVqRqzt0y3DV28FH1oq8n1f4ivW6jjXtttMPghrh9lt4uwtHhdt0TnhUi7Xemq9bXdet55lNc32Xm227Pz6fT1bYRuU922lunWv74e6iZ31Z/jrS3udqPd/sx2y552y7XbXphPY9tnPXa71QI+Xh66uZp2u5jtdvjQbaD/4tiv9fymIQ/d1iLtlujWXXeod7qBCF9efdSWk329310ducJon2Wvuslo8Xt65fQsje5G+aibP1vkItwrOgtnnsmOtdv3UbdW6HbnFxx+Y7Wv59uNX32UjW4udBlSM9Hdt/SkWSzmos+D+saVf+Gu6/tup1gcnWbeXkO/DSxVztK00aiZrNEYpvmXLNw+ynuH4YvVSnTd9HaljJ/HL5JwD3PB/cnnLPhWJ17jieH/6tEt315k+0t268Q3TF+S2Mulsu2Q7anE3Rb7w3TuNzWP0vTkcqtMtjlhtrD2/r5abTa3JzrNavX+r3X8juslcz95G/8YbtUHBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4G/8AaXJCBhh9J08AAAAASUVORK5CYII");
-    position: relative;
-    top: 200px;
-    right: 200px;
-    padding: 120px;
-    padding-top: 100px;
-    padding-bottom: 10px;
+.wrapper{
+     display:inline-flex;
 }
-.twitter{
-    background-image: url("https://www.punekarnews.in/wp-content/uploads/2021/03/Twitter.jpg");
+.wrapper .icon{
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     position: relative;
     top: 200px;
     right: -200px;
     padding: 120px;
     padding-top: 100px;
     padding-bottom: 10px;
+    z-index : 2;
+    cursor : pointer;
+    transition : all 0.4s cubic-bezier(0.68,-0.55,0.265,1.55);
 }
 .links{
     position:relative;
@@ -38,4 +36,125 @@ a{
     left: 1050px;
     text-decoration: none;
   
+
+}
+.wrapper .icon span{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    display: block;
+    background: #fff;
+    border-radius: 50%;
+    z-index: 2;
+    text-align: center;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+}
+.wrapper .icon:hover span i{
+    color: #fff;
+}
+.wrapper .icon span i{
+    font-size: 25px;
+    line-height: 60px;
+}
+.wrapper .icon .tooltip{
+    position: absolute;
+    top: -70px;
+    background: #fff;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 18px;
+    border-radius: 25px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+.wrapper .icon:hover .tooltip{
+    top: -70px;
+    opacity: 1;
+    pointer-events:auto;
+}
+.wrapper .icon .tooltip::before{
+    position: absolute;
+    content:"";
+    height: 15px;
+    width: 15px;
+    background:#fff;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    transition: all 0.4s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip{
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+}
+.wrapper .facebook:hover span,
+.wrapper  .facebook:hover .tooltip,
+.wrapper  .facebook:hover .tooltip::before{
+    background: #3b5999;
+
+}
+.wrapper .Twitter:hover span,
+.wrapper  .Twitter:hover .tooltip,
+.wrapper  .Twitter:hover .tooltip::before{
+    background: #46c1f6;
+
+}
+.wrapper .Discord:hover span,
+.wrapper  .Discord:hover .tooltip,
+.wrapper  .Discord:hover .tooltip::before{
+    background: #000000;
+
+} 
+.wrapper .youtube:hover span,
+.wrapper  .youtube:hover .tooltip,
+.wrapper  .youtube:hover .tooltip::before{
+    background: #DE463B;
+
+}
+.wrapper .github:hover span,
+.wrapper  .github:hover .tooltip,
+.wrapper  .github:hover .tooltip::before{
+    background: #333;
+ 
+}
+.wrapper .instagram:hover span,
+.wrapper  .instagram:hover .tooltip,
+.wrapper  .instagram:hover .tooltip::before{
+    background: #e1306c;
+ 
+}
+.wrapper .whatsapp:hover span,
+.wrapper  .whatsapp:hover .tooltip,
+.wrapper  .whatsapp:hover .tooltip::before{
+    background: #00ff73;
+ 
+}
+.wrapper .snapchat:hover span,
+.wrapper  .snapchat:hover .tooltip,
+.wrapper  .snapchat:hover .tooltip::before{
+    background: #fbff00;
+    color: #000000;
+}
+.wrapper .telegram:hover span,
+.wrapper  .telegram:hover .tooltip,
+.wrapper  .telegram:hover .tooltip::before{
+    background: #0050fd;
+    color: #000000;
+}
+a {
+    color: #ffffff;
+    border-radius: 19px;
+    background-color:rgba(0,0,0,0.);
+    padding: 15px;
+    position: relative;
+    letter-spacing: 1px;
+    top: -6cm;
+    left: 750px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all 0.5s linear;
+  } 
+  a:hover{
+    color:black;
   }

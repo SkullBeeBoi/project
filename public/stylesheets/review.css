@@ -5,3 +5,18 @@
     text-decoration: none;
   
   }
+  a {
+    color: #ffffff;
+    border-radius: 19px;
+    background-color:rgba(0,0,0,0.);
+    padding: 15px;
+    position: relative;
+    letter-spacing: 1px;
+    top: -6cm;
+    left: 750px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all 0.5s linear;
+  } 
+  a:hover{
+    color:black;
+  }

@@ -14,5 +14,8 @@ router.get('/post',function(req,res){
  router.get('/review',function(req,res){
   res.render('reviews');
  });
+ router.post('/submit',(req,res)=>{
+
+ });
 
 module.exports = router;

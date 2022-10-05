@@ -44,7 +44,7 @@ a:hover{
 .links{
   position:relative;
   top: -625px;
-  left: 1050px;
+  left: 1010px;
   text-decoration: none;
 
 }
@@ -52,11 +52,14 @@ a:hover{
 background-image: url('/images/leaves2.jpg');
 
 position: relative;
-height: 671px;
-width: 1359px;
+height: 101vh;
+width: 207vh;
 right: 10px;
-bottom: 15px;
+bottom: 20px;
 background-position: center;
+filter: blur(5px);
+-webkit-filter: blur(5px);
+
 }
 .font1{
   color: white;
