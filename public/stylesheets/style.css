@@ -1,48 +1,66 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-image: url('/images/leaves.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-  position:relative;
-  top: 200px;
-  left: 7cm;
+body{
+  background-color:black;
+  margin: 0;
+  height: 670px;
 }
-
 a {
   color: #ffffff;
   border-radius: 19px;
-  background-color: rgb(22, 255, 14);
+  background-color:rgba(0,0,0,0.);
   padding: 15px;
   position: relative;
   letter-spacing: 1px;
   top: -6cm;
   left: 750px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  transition: all 0.5s linear;
+} 
+a:hover{
+  color:black;
 }
 .font{
   color: white;
-  font-size:larger;
+  font-size: 150%;
   box-sizing: content-box;
-  padding: 200px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   border-radius: 100px;
   
 }
 .main{
   position: absolute;
-  top: 200px;
-  left: 400px;
+  top: 300px;
+  left: 650px;
   transform: translate(-50%,-50%);
   z-index: 5;
-  width: 45%;
+  width: 50%;
   padding: 40px 0;
   text-align: center;
   border-top-left-radius: 70px;
   border-bottom-right-radius: 70px;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.7);
+  
   
 }
 .links{
-  position: relative;
-  right: 2000px;
+  position:relative;
+  top: -625px;
+  left: 1050px;
+  text-decoration: none;
+
+}
+.img{
+background-image: url('/images/leaves2.jpg');
+
+position: relative;
+height: 671px;
+width: 1359px;
+right: 10px;
+bottom: 15px;
+background-position: center;
+}
+.font1{
+  color: white;
+  font-size: 400%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
 }
