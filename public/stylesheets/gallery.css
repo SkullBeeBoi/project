@@ -124,12 +124,6 @@ html,body{
     background: #fbff00;
     color: #000000;
 }
-.wrapper .snapchat:hover span,
-.wrapper  .snapchat:hover .tooltip,
-.wrapper  .snapchat:hover .tooltip::before{
-    background: #fbff00;
-    color: #000000;
-}
 .wrapper .telegram:hover span,
 .wrapper  .telegram:hover .tooltip,
 .wrapper  .telegram:hover .tooltip::before{
