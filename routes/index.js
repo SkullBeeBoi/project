@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+const bodyparser =require('body-parser');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -14,8 +15,9 @@ router.get('/post',function(req,res){
  router.get('/review',function(req,res){
   res.render('reviews');
  });
- router.post('/submit',(req,res)=>{
+ router.post('/submit',function(req,res){
 
+ res.render('reviews');
  });
 
 module.exports = router;

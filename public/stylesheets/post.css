@@ -1,17 +1,20 @@
-
+body{
+  overflow: hidden;
+}
   a {
-    flex-direction: column;
+    flex-direction: row;
     color: #fff;
     border-radius: 19px;
-    background-color:rgba(0,0,0,0.3);
+    background-color:rgba(0,0,0,0.0);
     padding: 10px;
     position: relative;
     letter-spacing: 1px;
     text-decoration: none;
-    top: 100px;
-    left: 500px;
+    top: -250px;
+    left: 600px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     transition: all 0.5s linear;
+    
   } 
   a:hover{
     color:black;
@@ -28,9 +31,8 @@ content{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    flex-direction: column;
     gap: 30px;
-    background-color: #1d2b3a;
+    background-image: url('/images/leaves2.jpg');
   }
   .inputbox{
     position: relative;
@@ -68,6 +70,7 @@ content{
     background: #00dfc4;
     border-left: 1px solid #00dfc4;
     border-right: 1px solid #00dfc4;
+    border-radius: 10px;
   }
   .inputbox:nth-child(2) input:valid ~ span,
   .inputbox:nth-child(2) input:focus ~ span
@@ -80,6 +83,7 @@ content{
   .inputbox input:valid,
   .inputbox input:focus
   {
+    border-radius: 50px;
     border: 1px solid #00dfc4;
   }
   .content{
@@ -87,3 +91,18 @@ content{
     bottom: 23vh;
   
   }
+  .mail{
+    position: relative;
+    top:200px;
+    left: -200px;
+  }
+.submit{
+  background-color: #00dfc4;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration:none;
+  border: #fff;
+  font-size: large;
+  border-radius: 3px;
+  position: relative;
+  left: 180px;
+}

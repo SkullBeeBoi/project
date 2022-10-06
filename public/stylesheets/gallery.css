@@ -6,6 +6,7 @@ html,body{
     background: linear-gradient(315deg,#ffffff,#d7e1ec);
     background-image: url("/images/BOOM_Blog+Design_Trends+2021_BlogHeader_v1.png");
     font-family:Arial, Helvetica, sans-serif;
+    overflow: hidden;
 }
 .app{
     color: #000000;

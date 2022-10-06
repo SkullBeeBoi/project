@@ -2,6 +2,7 @@ body{
   background-color:black;
   margin: 0;
   height: 670px;
+  overflow: hidden;
 }
 a {
   color: #ffffff;
@@ -28,7 +29,7 @@ a:hover{
 }
 .main{
   position: absolute;
-  top: 300px;
+  top: 350px;
   left: 650px;
   transform: translate(-50%,-50%);
   z-index: 5;
@@ -43,8 +44,8 @@ a:hover{
 }
 .links{
   position:relative;
-  top: -625px;
-  left: 1010px;
+  top: -670px;
+  left: 1000px;
   text-decoration: none;
 
 }
@@ -52,8 +53,8 @@ a:hover{
 background-image: url('/images/leaves2.jpg');
 
 position: relative;
-height: 101vh;
-width: 207vh;
+height: 110vh;
+width: 212vh;
 right: 10px;
 bottom: 20px;
 background-position: center;
