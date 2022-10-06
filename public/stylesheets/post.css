@@ -10,8 +10,8 @@ body{
     position: relative;
     letter-spacing: 1px;
     text-decoration: none;
-    top: -250px;
-    left: 600px;
+    bottom: 270px;
+    left: 500px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     transition: all 0.5s linear;
     
@@ -94,15 +94,31 @@ content{
   .mail{
     position: relative;
     top:200px;
-    left: -200px;
+    left: 150px;
+  }
+  .box{
+    position: absolute;
+    top: 350px;
+    left: 693px;
+    transform: translate(-50%,-50%);
+    z-index: 5;
+    width: 40%;
+    padding: 100px 0;
+    text-align: center;
+    border-radius: 70px;
+    background-color: rgba(0,0,0,0.7);
   }
 .submit{
-  background-color: #00dfc4;
+  background-color:#59a04b;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration:none;
   border: #fff;
   font-size: large;
   border-radius: 3px;
   position: relative;
-  left: 180px;
+  left: 10px;
+}
+.img2{
+  
+  filter: blur(5px);
 }
