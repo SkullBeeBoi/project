@@ -4,14 +4,10 @@ html,body{
     width: 100%;
     place-items: center;
     background: linear-gradient(315deg,#ffffff,#d7e1ec);
-    background-image: url("/images/BOOM_Blog+Design_Trends+2021_BlogHeader_v1.png");
     font-family:Arial, Helvetica, sans-serif;
-    overflow: hidden;
+    overflow: scroll;
 }
-.app{
-    color: #000000;
-    text-align: center;
-}
+
 .wrapper{
      display:inline-flex;
 }
@@ -22,7 +18,7 @@ html,body{
     justify-content: center;
     flex-direction: column;
     position: relative;
-    top: 200px;
+    top: -100px;
     right: -200px;
     padding: 120px;
     padding-top: 100px;
@@ -33,10 +29,10 @@ html,body{
 }
 .links{
     position:relative;
-    top: -625px;
-    left: 1050px;
+    top: -800px;
+    left: 1300px;
     text-decoration: none;
-  
+    color: #ff0000;
 
 }
 .wrapper .icon span{
@@ -144,18 +140,3 @@ html,body{
     background: #0050fd;
     color: #000000;
 }
-a {
-    color: #ffffff;
-    border-radius: 19px;
-    background-color:rgba(0,0,0,0.);
-    padding: 15px;
-    position: relative;
-    letter-spacing: 1px;
-    top: -6cm;
-    left: 750px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    transition: all 0.5s linear;
-  } 
-  a:hover{
-    color:black;
-  }

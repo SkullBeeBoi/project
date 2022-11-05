@@ -1,7 +1,7 @@
 body{
   background-color:black;
   margin: 0;
-  height: 670px;
+  height: 700px;
   overflow: hidden;
 }
 a {
@@ -29,23 +29,22 @@ a:hover{
 }
 .main{
   position: absolute;
-  top: 350px;
-  left: 650px;
+  top: 420px;
+  left: 800px;
   transform: translate(-50%,-50%);
   z-index: 5;
   width: 50%;
-  padding: 40px 0;
+  padding: 100px 50px;
   text-align: center;
   border-top-left-radius: 70px;
   border-bottom-right-radius: 70px;
   background-color: rgba(0,0,0,0.7);
   
-  
 }
 .links{
   position:relative;
-  top: -670px;
-  left: 1000px;
+  top: -800px;
+  left: 1300px;
   text-decoration: none;
 
 }
@@ -66,5 +65,4 @@ filter: blur(5px);
   color: white;
   font-size: 400%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
 }
